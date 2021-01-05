@@ -1,0 +1,42 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Oswald:300);
+
+/* Add a black background color to the top navigation */
+.mobileNav {
+  background-color: #333;
+  /* overflow: hidden; */
+  font: 14px/120%"Source Sans Pro", sans-serif;
+  width: 100%;
+  position: fixed;
+  opacity: 0.99;
+  top: 0px;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.mobileNav a {
+  /* width: 33.3%; */
+  width: 50%;
+
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  /* border-bottom: 1px solid #afb9c5; */
+
+}
+
+/* Change the color of links on hover */
+.mobileNav a:hover {
+  background-color: #afb9c5;
+  color: black;
+}
+
+
+/* Hide the link that should open and close the mobileNav on small screens */
+.mobileNav .icon {
+  display: none;
+}

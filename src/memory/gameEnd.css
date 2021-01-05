@@ -1,0 +1,12 @@
+.game-end {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.game-end-message {
+  font-size: 20px;
+}

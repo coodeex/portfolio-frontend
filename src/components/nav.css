@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Oswald:300);
+ body {
+     transition: all 0.2s;
+     /* perspective: 0em; */
+     margin: 0 auto;
+     padding: 0 0;
+    }
+    /* h1, h2, h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    } */
+    .menu_wrapper {
+    font: 14px/120%"Source Sans Pro", sans-serif;
+    float: left;
+    padding: 1px 25px ;
+    perspective: 600px;
+    width: 200px;
+}
+nav {
+    width: 230px;
+    max-width: 360px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    transform: rotateY(20deg) rotateX(18deg) rotateZ(9deg);
+    transition: transform 1s;
+}
+nav > ul {
+    list-style: none;
+    padding: 1em;
+    transform: translateZ(-10px);
+    transform-style: preserve-3d;
+    transition: all 0.2s;
+}
+nav > ul > li {
+    margin: 0 0 0.5em 0;
+    position: relative;
+    color: #222222;
+    font-family:"Oswald", "Arial Narrow", sans-serif;
+    transition: all 0.2s;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    background-color: #afb9c5;
+    *zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFafb9c5', endColorstr='#FF484e52');
+    background-image: -moz-linear-gradient(top, #afb9c5 0%, #484e52 100%);
+    background-image: -o-linear-gradient(top, #afb9c5 0%, #484e52 100%);
+    background-image: -webkit-linear-gradient(top, #afb9c5 0%, #484e52 100%);
+    background-image: linear-gradient(to bottom, #afb9c5 0%, #484e52 100%);
+}
+nav > ul > li:hover {
+    background: white;
+    transform: translateZ(16px) rotateY(4deg);
+}
+nav > ul > li:hover a {
+    color: #222222;
+}
+nav > ul > li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateZ(60px) rotateY(-25deg);
+}
+nav > ul > li:hover ul li {
+    margin-left: 0.325em;
+    transition: all 0.4s;
+}
+nav > ul > li a {
+    display: block;
+    padding: 0.5em;
+    min-height: 2.5em;
+    line-height: 2.5em;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+nav > ul > li a:hover {
+    color: #222222;
+}
+nav > ul > li ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 83%;
+    top: 0;
+    padding-left: 2em;
+    min-width: 300px;
+    transition: all 0.2s;
+    transform: translateZ(-5px) rotateY(-10deg);
+}
+nav > ul > li ul li {
+    display: inline-block;
+    width: 45%;
+    margin: 0 0 0.325em -3em;
+    background: #1f1f1f;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    transform-style: preserve-3d;
+}
+nav > ul > li ul li a {
+    color: black;
+    font-size: 1.325em;
+    line-height: 120%;
+    background: white;
+    border-radius: 6px;
+}
+nav > ul > li ul li a:hover {
+    background: #afb9c5;
+}
+nav > ul > li ul div {
+    font-family:"Source Sans Pro", sans-serif;
+    color: #dddddd;
+}
