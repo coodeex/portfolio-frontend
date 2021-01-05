@@ -48,6 +48,7 @@ const About = () => {
         <p className="aboutFewWords">Below I have listed some of my projects and courses that I have done. You can find more information about a project by clicking a link that gets you to my GitHub page.</p>
         <p className="aboutFewWords"></p>
         <VerticalProjects />
+        <hr color="white"></hr>
       </div>
 
       <div className="skills">

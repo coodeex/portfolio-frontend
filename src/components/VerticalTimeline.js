@@ -54,7 +54,7 @@ export const VerticalTime = () => {
           iconStyle={{ background: '#e3cdb3', color: '#fff' }}
           icon={<img className="vertical-timeline-element-icon" src={require('../images/volunteer.jpg')} alt=""></img>}
         >
-          <h3 className="vertical-timeline-element-title">Event Organizer</h3>
+          <h3 className="vertical-timeline-element-title">Event Organizer (Volunteer)</h3>
           <a target="_blank" rel="noopener noreferrer" href="https://as.fi/"><h4 className="vertical-timeline-element-subtitle">AS-Guild</h4></a>
           <p>
             I was part of a team that planned and organized (fun) (web) events for the members of Automation and Systems Technology Guild.
@@ -66,7 +66,7 @@ export const VerticalTime = () => {
           iconStyle={{ background: '#e3cdb3', color: '#fff' }}
           icon={<img className="vertical-timeline-element-icon" src={require('../images/volunteer.jpg')} alt=""></img>}
         >
-          <h3 className="vertical-timeline-element-title">Treasurer</h3>
+          <h3 className="vertical-timeline-element-title">Treasurer (Volunteer)</h3>
           <a target="_blank" rel="noopener noreferrer" href="https://www.pelmu.fi/yhdistys.php"><h4 className="vertical-timeline-element-subtitle">Pelmu RY</h4></a>
           <p>
 

@@ -42,6 +42,7 @@
   height: 60vh;
   text-align: left;
   color: #FFF;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 1023px) {
