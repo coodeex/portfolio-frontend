@@ -79,7 +79,7 @@ export const VerticalTime = () => {
           iconStyle={{ background: '#e3cdb3', color: '#fff' }}
           icon={<img className="vertical-timeline-element-icon" src={require('../images/briefcase.png')} alt=""></img>}
         >
-          <h3 className="vertical-timeline-element-title">Developer (I wish)</h3>
+          <h3 className="vertical-timeline-element-title">Developer (Hopefully)</h3>
           <h4 className="vertical-timeline-element-subtitle">Espoo / Helsinki</h4>
           <p>
             I would like to work for a company where I could learn more about web / software development. I'm interested in all kinds of developing for example frontend, backend, testing and designing
