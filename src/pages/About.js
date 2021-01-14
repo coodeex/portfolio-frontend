@@ -36,12 +36,12 @@ const About = () => {
             </>
       }
       <div className="verticalTime">
-      <a id="timeline" href="/#"> </a>
+        <a id="timeline" href="/#"> </a>
         <h1 className="aboutHeader">Timeline</h1>
         <p className="aboutFewWords">When I was 12 years old I delivered newspapers and so on.. but I'm not going to list here all the small things that I have done.</p>
         <VerticalTime />
         <hr color="white"></hr>
-        <a id="projects"href="/#"> </a>
+        <a id="projects" href="/#"> </a>
       </div>
       <div className="verticalTime">
         <h1 className="aboutHeader">Projects</h1>
@@ -52,11 +52,11 @@ const About = () => {
       </div>
 
       <div className="skills">
-      <a id="skills" href="/#"> </a>
+        <a id="skills" href="/#"> </a>
         <h1>Skills</h1>
         <h3>In descending order, depending on how much I have used:</h3>
-      Native Finnish, Fluent English, React, Node, Python, GitHub, unit testing, REST, Redux, MongoDB, SQL, Excel TypeScript, CSS, Azure, C, Scala
-
+        Native Finnish, Fluent English, React, Node, Python, GitHub, unit testing, REST, Redux, MongoDB, SQL, Excel TypeScript, CSS, Azure, C, Scala
+        <p className="updated">Updated 2021-01-14</p>
       </div>
     </div>
   );
