@@ -55,7 +55,7 @@ const About = () => {
       <a id="skills" href="/#"> </a>
         <h1>Skills</h1>
         <h3>In descending order, depending on how much I have used:</h3>
-      Native Finnish, Fluent English, React, Node, GitHub, unit testing, REST, Redux, MongoDB, SQL, Excel TypeScript, CSS, Azure, Python, C, Scala
+      Native Finnish, Fluent English, React, Node, Python, GitHub, unit testing, REST, Redux, MongoDB, SQL, Excel TypeScript, CSS, Azure, C, Scala
 
       </div>
     </div>
