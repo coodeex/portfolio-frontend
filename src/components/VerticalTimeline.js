@@ -45,7 +45,7 @@ export const VerticalTime = () => {
           <h3 className="vertical-timeline-element-title">Student</h3>
           <h4 className="vertical-timeline-element-subtitle">Aalto University</h4>
           <p>
-            I'm studying automation technology and computer science, so most of my courses involve programming. I would say that now I have a solid understanding of programming  and desire to get better.
+            I'm studying automation technology and computer science, so most of my courses involve programming. I would say that now I have a solid understanding of programming  and desire to get better at it.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -57,7 +57,7 @@ export const VerticalTime = () => {
           <h3 className="vertical-timeline-element-title">Event Organizer (Volunteer)</h3>
           <a target="_blank" rel="noopener noreferrer" href="https://as.fi/"><h4 className="vertical-timeline-element-subtitle">AS-Guild</h4></a>
           <p>
-            I was part of a team that planned and organized (fun) (web) events for the members of Automation and Systems Technology Guild.
+            I was part of a team that planned and organized fun (web) events for the members of Automation and Systems Technology Guild.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -70,7 +70,7 @@ export const VerticalTime = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://www.pelmu.fi/yhdistys.php"><h4 className="vertical-timeline-element-subtitle">Pelmu RY</h4></a>
           <p>
 
-            Pelmu is the Otaniemi Music Association, where I often go to play. This year I also will manage it's cash flow and create it's budget.
+            Pelmu is the Otaniemi Music Association, where I often go to play. This year I will also manage its cash flow and create its budget.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
