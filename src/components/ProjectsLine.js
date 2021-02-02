@@ -18,7 +18,7 @@ export const VerticalProjects = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/coodeex/cave_app"><h3 className="vertical-timeline-element-title">Home Brewery Accounting App</h3></a>
           <h4 className="vertical-timeline-element-subtitle">Entirely from scratch</h4>
           <p>
-            This full stack application can be used to keep track of products used in beer making. In addition to that, app can also keep track of batches and calculate the price of one bottle. It uses token based login so that only admins can add products and batches
+            This full stack application can be used to keep track of products used in beer making. In addition to that, app can also keep track of batches and calculate the price of one bottle. It uses token based login so that only admins can add products and batches.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -72,10 +72,10 @@ export const VerticalProjects = () => {
           iconStyle={{ background: '#e3cdb3', color: '#fff' }}
           icon={<img className="vertical-timeline-element-icon" src={require('../images/code.jpg')} alt=""></img>}
         >
-          <h3 className="vertical-timeline-element-title">This website</h3>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/coodeex/portfolio-frontend"><h3 className="vertical-timeline-element-title">This website</h3></a>
           <h4 className="vertical-timeline-element-subtitle">Entirely from scratch</h4>
           <p>
-            I don't have the code of this website publicly on my GitHub because this was my first webpage using a lot of CSS and the code is not meant to be read by humans.
+            This is pretty self-explanatory :D
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
